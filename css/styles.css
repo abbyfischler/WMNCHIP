@@ -637,6 +637,7 @@ color:#fff;
   color: #3A3A3A;
   padding: 7px 0;
   border-top: 2px solid #fff;
+  align-items: center;
 } 
 #our-team .team-member:hover .social-icons > li > a {
   color: #60E1BF;
