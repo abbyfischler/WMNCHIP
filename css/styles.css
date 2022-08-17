@@ -85,7 +85,7 @@ color: #000000;
 }
 
 .welcometext{
-  font-size: xxx-large;
+  font-size: xx-large;
   line-height: 100%;
 }
 .welcomedescription{
@@ -122,7 +122,7 @@ color: #F6CC07;
   border-bottom: 1px solid #696969;
   margin-bottom: 15px;
   position: relative;
-  color: #fff;
+  color: #E796B5;
 }
 .column-title:after {
   content: " ";
@@ -180,12 +180,12 @@ text-transform: uppercase;
 *******Header******
 **************************/
 #main-nav.navbar-default {
-background: #FFFFFF;
+background: #E796B5;
 /* padding: 10px 0; */
 }
 #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
-background: rgb(246, 204, 7);
-color: #3A3A3A;
+background:#E796B5;
+color: white;
 /* font-weight: bold; */
 }
 .navbar.navbar-default {
@@ -201,7 +201,7 @@ color: #3A3A3A;
   padding: 15px 15px 1px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-color: #F6CC07;
+color: white;
  
 background: transparent;
 }
@@ -210,7 +210,7 @@ color: #FFFFFF;
 font-weight: 600;
 } 
 #main-nav.navbar-default {
-background: #3A3A3A;
+background: #E796B5;
 box-shadow: 0px 1px 2px rgba(40, 40, 40, 0.6);
 }
 .navbar-nav>li {
@@ -227,17 +227,17 @@ box-shadow: 0px 1px 2px rgba(40, 40, 40, 0.6);
   #main-nav.navbar-default .navbar-nav > li > a { 
 }
   .navbar-default .navbar-nav>li>a {
-	color: #F6CC07;
+	color: white;
 	}
   #main-nav.navbar-default .navbar-nav > li.active > a,
 
   #main-nav.navbar-default .navbar-nav > li.open > a,
   #main-nav.navbar-default .navbar-nav > li:hover > a {
-    background: rgb(246, 204, 7); 
+    background: #F8B7D0; 
 	
-    color: #3D3737;
+    color: white;
   
-    border-top: 4px solid #C3A103;
+    border-top: 4px solid #3581B8;
 }
   #main-nav.navbar-default .dropdown-menu {
     padding: 0 20px;
@@ -608,28 +608,28 @@ background: transparent;
 border: 1px solid rgba(255, 255, 255, 0.2);
 margin: 0 8px;
 }
-#about {
+#home {
   padding: 100px 0;
-  background: #3A3A3A;
+  background: #F5F5F5;
   /* background: url('../images/img2.jpg'); */    
   background-size: cover;  };
 }
-#about .column-title{
+#home .column-title{
+color:E7#96B5;
+}
+#home p{
+color:#3581B8;
+}
+#home h2{
 color:#fff;
 }
-#about p{
-color:#fff;
-}
-#about h2{
-color:#fff;
-}
-#about .listarrow li{
-color:#fff;
+#home .listarrow li{
+color:pink;
 }
 /*Team*/ 
 #our-team {
-  padding: 100px 0;
-  background: #FFFFFF;
+  padding: 75px 0;
+  background: #3581B8;
 }
 #our-team .team-member {
   padding: 0;  
