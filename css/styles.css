@@ -84,6 +84,14 @@ color: #000000;
   font-weight: bolder;
 }
 
+.welcometext{
+  font-size: xxx-large;
+  line-height: 100%;
+}
+.welcomedescription{
+  font-size: large;
+
+}
 .btn {
   border-width: 0;
   border-radius: 0;
@@ -637,7 +645,6 @@ color:#fff;
   color: #3A3A3A;
   padding: 7px 0;
   border-top: 2px solid #fff;
-  align-items: center;
 } 
 #our-team .team-member:hover .social-icons > li > a {
   color: #60E1BF;
