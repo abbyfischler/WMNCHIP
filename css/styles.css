@@ -705,6 +705,11 @@ line-height: 22px;
 	border-radius: 20px;
 	border: 1px solid rgba(255, 255, 255, 0.39);
 }
+.over t1{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
  
 .single-testimonial blockquote:after{
 	/* position:absolute; */
@@ -943,15 +948,38 @@ text-align: center;
 }
 /*hero-action-section*/
 .hero-action-section {
-    background-image: url("../images/img2.jpg");
+   background: radial-gradient(circle, rgba(231,150,181,1) 0%, rgba(53,129,184,1) 100%);
     text-align: center;
     color: #fff;
-    padding: 60px 0;
+   padding: 40px 0;
+   
+}
+
+.stats2-section {
+  background-color: white;
+   text-align: center;
+   color: #fff;
+  padding: 40px 0;
+  
+}
+
+.stats3-section{
+  background: radial-gradient(circle, rgba(231,150,181,1) 0%, rgba(53,129,184,1) 100%);
+   text-align: center;
+   color: #E796B5;
+  padding: 40px 0;
+}
+
+.stats-2-title{
+  font-size: 38px;
+    font-weight: 900;
+    color: #3581B8;
 }
 
 .hero-action-subtitle,
 .hero-action-title {
     display: block;
+    color: black;
 }
 
 .hero-action-subtitle {
@@ -961,7 +989,7 @@ text-align: center;
 .hero-action-title {
     font-size: 38px;
     font-weight: 900;
-    color: #FFFFFF;
+    color: white;
 }
 
 .hero-action-description {
@@ -987,7 +1015,7 @@ text-align: center;
 
 .get-started:hover {
     color: #fff;
-    background-color: #00c1ef;
+    background-color: #3581B8;
     text-decoration: none;
     border: none;
 }
