@@ -1079,15 +1079,15 @@ text-align: center;
 }
 
 .stats2-section {
-  background-color: rgba(53,129,184,1);
+  background-color: #FFEED9;
    text-align: center;
-   color: #fff;
+   color: #3581B8;
   padding: 40px 0;
   
 }
 
 .stats3-section{
-  background-color: white;
+  background-color: #3581B8;
    text-align: center;
    color: #E796B5;
   padding: 40px 0;
@@ -1096,12 +1096,15 @@ text-align: center;
 .stats-2-title{
   font-size: 38px;
     font-weight: 900;
-    color: white;
+    color: #3581B8;
 }
 .stats-3-title{
   font-size: 38px;
     font-weight: 900;
     color: black;
+}
+#our-team{
+  background: radial-gradient(circle, rgba(231,150,181,1) 0%, rgba(53,129,184,1) 100%);
 }
 
 .hero-action-subtitle,
@@ -1147,6 +1150,27 @@ text-align: center;
     background-color: #3581B8;
     text-decoration: none;
     border: none;
+}
+
+.get-started1 {
+  display: inline-block;
+  border: 1px solid #fff;
+  width: 154px;
+  height: 49px;
+  line-height: 49px;
+  margin: 30px auto;
+  color: #fff;
+  background-color:#3581B8;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.get-started1:hover {
+  color: #fff;
+  background-color: #F8B7D0;
+  text-decoration: none;
+  border: none;
 }
 
 .call-us .get-started:hover {
