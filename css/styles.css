@@ -97,6 +97,10 @@ color: #000000;
   font-size: large;
 
 }
+.img-responsive{
+  display: block;
+  padding-top: 0%;
+}
 .btn {
   border-width: 0;
   border-radius: 0;
