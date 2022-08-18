@@ -41,6 +41,10 @@ hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
 }
+.t1{
+  height:auto;
+  width: 50%;
+}
 .gradiant {
   background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
@@ -614,7 +618,6 @@ margin: 0 8px;
   background: #F5F5F5;
   /* background: url('../images/img2.jpg'); */    
   background-size: cover;  };
-}
 #home .column-title{
 color:E7#96B5;
 }
@@ -627,6 +630,7 @@ color:#fff;
 #home .listarrow li{
 color:pink;
 }
+
 /*Team*/ 
 #our-team {
   padding: 75px 0;
@@ -783,11 +787,6 @@ line-height: 22px;
 
 	border-radius: 20px;
 	border: 1px solid rgba(255, 255, 255, 0.39);
-}
-.over t1{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
  
 .single-testimonial blockquote:after{
@@ -1090,7 +1089,7 @@ text-align: center;
     width: 154px;
     height: 49px;
     line-height: 49px;
-    margin: 50px auto;
+    margin: 30px auto;
     color: #fff;
     font-size: 14px;
     border-radius: 3px;
