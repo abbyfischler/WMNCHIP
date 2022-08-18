@@ -709,10 +709,25 @@ li a {
   width : 800px; 
   background: #f8b7d0;
   margin : 40px auto; 
+  border-radius: 80px;
+}
+
+.menu2 {
+  width : 800px; 
+  background: #f8b7d0;
+  margin : 40px auto; 
+  border-radius: 80px;
+}
+
+.menu3 {
+  width : 800px; 
+  background: #f8b7d0;
+  margin : 40px auto; 
+  border-radius: 80px;
 }
 
 #rec1 {
-  padding: 40px;
+  padding: 25px;
   width: 800px;
   background : #e796b5; 
   color : white;
@@ -720,12 +735,14 @@ li a {
   /*font-variant : small-caps;*/
   cursor : pointer;
   display: block;
+  border-radius: 80px;
 }
 
 #rec1::after {
   float: right;
   right: 10%;
   /*content: " +";*/
+  border-radius: 80px;
 }
 
 .slide {
@@ -737,20 +754,42 @@ li a {
   overflow: hidden;
   text-align: center;
   transition: height .4s ease;
+  border-radius: 80px;
 }
 
 .slide li {
-  padding : 40px;
+  padding : 80px;
   list-style: none;
+  border-radius: 40px;
 }
 
 #touch {
   position: absolute; 
   opacity: 0; 
   height: 0px;
-}    
+}   
 
-#touch:checked + .slide {
+#touch2 {
+  position: absolute; 
+  opacity: 0; 
+  height: 0px;
+}
+
+#touch3 {
+  position: absolute; 
+  opacity: 0; 
+  height: 0px;
+}
+
+#touch:checked + .slide{
+  height: 300px;
+}
+
+#touch2:checked + .slide{
+  height: 300px;
+}
+
+#touch3:checked + .slide{
   height: 300px;
 }
 
@@ -761,10 +800,12 @@ li a {
 
 .rec-title {
   font-size: 38px;
+  color: #3581B8;
 }
 
 #rec1{
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 
